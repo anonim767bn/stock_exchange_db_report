@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="SxqvnezA67Z3Pu8fpjBg" name="Page-1">
-        <mxGraphModel dx="1863" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1299" dy="213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -730,17 +730,19 @@
                         <mxPoint x="570" y="5" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="220" value="" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                <mxCell id="220" value="" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;entryX=0.332;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="222">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="-106" y="660" as="sourcePoint"/>
                         <mxPoint x="-105.59" y="797" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="221" value="Constraints" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;" parent="220" connectable="0" vertex="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="3" y="-20" as="offset"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="222" value="&lt;b&gt;UniqueConstraint&lt;/b&gt;:&lt;div&gt;user_id&lt;/div&gt;&lt;div&gt;&lt;b&gt;CheckConstraint:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;date_of_expiry &amp;gt;= date_of_issue&lt;/div&gt;&lt;div&gt;document_type in (...)&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="1" vertex="1">
-                    <mxGeometry x="-165" y="800" width="195" height="110" as="geometry"/>
+                    <mxGeometry x="-170" y="700" width="195" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="225" value="" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;exitX=1.017;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -757,7 +759,7 @@
                 <mxCell id="228" value="&lt;b&gt;Indexes&lt;/b&gt;:&lt;div&gt;buy_order_id,&lt;/div&gt;&lt;div&gt;sell_order_id,&lt;/div&gt;&lt;div&gt;traded_at&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="1" vertex="1">
                     <mxGeometry x="870" y="90" width="120" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="229" value="" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="228" edge="1" source="203">
+                <mxCell id="229" value="" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="203" target="228" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="770" y="115" as="sourcePoint"/>
                         <mxPoint x="869" y="120" as="targetPoint"/>
@@ -850,16 +852,16 @@
                 <mxCell id="264" value="&lt;div&gt;&lt;b&gt;UniqueConstraint&lt;/b&gt;:&lt;/div&gt;&lt;div&gt;name,&lt;/div&gt;&lt;div&gt;symbol&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="1" vertex="1">
                     <mxGeometry x="840" y="390" width="130" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="265" value="" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;exitX=1.012;exitY=0.091;exitDx=0;exitDy=0;entryX=-0.018;entryY=0.328;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" target="267">
+                <mxCell id="265" value="" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;dashed=1;endFill=0;labelBackgroundColor=none;exitX=1.012;exitY=0.091;exitDx=0;exitDy=0;entryX=-0.018;entryY=0.328;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" target="267" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="772" y="23.5" as="sourcePoint"/>
                         <mxPoint x="810" y="320.5" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="266" value="Constraints" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;" connectable="0" vertex="1" parent="265">
+                <mxCell id="266" value="Constraints" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;" parent="265" connectable="0" vertex="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="267" value="&lt;div&gt;&lt;b&gt;CheckConstraint&lt;/b&gt;:&lt;/div&gt;&lt;div&gt;trade_amount &amp;gt; 0&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+                <mxCell id="267" value="&lt;div&gt;&lt;b&gt;CheckConstraint&lt;/b&gt;:&lt;/div&gt;&lt;div&gt;trade_amount &amp;gt; 0&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="1" vertex="1">
                     <mxGeometry x="860" width="130" height="71" as="geometry"/>
                 </mxCell>
             </root>
